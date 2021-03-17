@@ -1,0 +1,20 @@
+body {
+  background-color: darkseagreen;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid black;
+  }
+
+h2 {
+  color: darkolivegreen;
+}
+
+.fontos {
+  text-decoration: underline;
+}
+
+.olcso {
+  color: red;
+}

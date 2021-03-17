@@ -1,0 +1,43 @@
+header {
+  background-color: aqua;
+  height: 80px;
+}
+
+#center {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: orange;
+  height: 600px;
+  width: 90px;
+}
+
+main {
+  background-color: red;
+  height: 600px;
+  width: 81%;
+  position: relative;
+}
+
+aside {
+  background-color: purple;
+  height: 600px;
+  width: 90px;
+}
+
+footer {
+  height: 80px;
+  background-color: blue;
+}
+
+#box {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  
+}

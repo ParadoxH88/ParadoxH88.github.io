@@ -1,0 +1,148 @@
+nav {
+  background-color:#222;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+ }
+
+nav a {
+  display: block;
+  width 100px;
+  height: 60px;
+  color: white;
+  margin-top: 5px;
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+/*   word-break: break-all; */
+/*   overflow: auto; */
+/*   outline: 0px; */
+}
+
+.leftside {
+  width: 35%;
+  height: 1300px;
+/*   border: 1px solid red; */
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.rightside {
+  width: 65%;
+  height: 60%;
+/*   border: 1px solid red; */
+  text-align: left;
+  margin: auto 0; 
+  padding: 10px;
+/*   word-break: break-all; */
+}
+
+
+header {
+/*  position: relative; */
+/*  font-family: 'Abril Fatface', cursive; */
+/*  margin: auto; */
+/*  width: 1000px;; */
+}
+
+.leftside img {
+/*  backround-repeat: no-repeat; */
+ width: 100%;
+ height: 210px;
+ display: inline-block;
+/*  margin: 0 auto; */
+ object-fit: cover;
+  
+}
+
+.leftside h1:first-of-type {
+ font-size: 25px;
+ padding: 0;
+ margin: 0;
+ position: absolute;
+ top: 80px;
+ left: 80px;
+ color: #222;
+}
+
+.leftside h1:last-of-type {
+ margin: 0;
+ font-size: 45px;
+ position: absolute;
+ top: 100px;
+ left: 80px;
+ color: #222;
+}
+
+/* main {
+ width: 100px;
+ margin: auto;
+} */
+
+
+blockquote {
+ font-family: ‘Abril Fatface’;
+ background-color:#222;
+ color: white;
+ padding: 20px 40px;
+ margin: 0 0 auto;
+ position: relative; 
+ font-size: 30px;
+ }
+
+blockquote::before {
+  content: '”';
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-size: 100px;
+  /* ide jön a stílusa */
+}
+
+/* .blckq {
+} */
+
+h2, h3, h4, p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  padding: 0 5px;
+}
+
+ul{
+  padding: 10 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 40px;
+  list-style-type: square;
+}
+
+h2 { 
+  padding: 20px 5px;
+  text-transform: uppercase;
+}
+
+h2:first-of-type {
+  padding-top: 100px;
+}
+
+h3, h4 {
+  padding: 20px 5px; 
+}
+
+#line {
+  border-top: 3px solid black;
+}

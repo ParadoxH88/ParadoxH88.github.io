@@ -1,0 +1,47 @@
+header {
+  background-color: purple;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+}
+
+a {
+  display: block;
+  background-color: cyan;
+  width: 50px;
+  height: 30px;
+  margin: 5px;
+
+}
+
+.container {
+  margin-top: 80px;
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-conent: center;
+/*   flex-grow */
+}
+
+main {
+ height: 500px;
+ background-color: yellow;
+ flex-grow: 4;
+ margin: 0 100px 0 0;
+}
+
+aside {
+  height: 500px;
+  background-color: lime;
+  flex-grow: 1;
+  margin: 0 0 0 100px;
+}
+
+footer {
+  height: 80px;
+  background-color: grey;
+  margin-top: 10px;
+}
