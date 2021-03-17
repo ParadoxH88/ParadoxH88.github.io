@@ -46,3 +46,7 @@ footer img {
   filter: grayscale(50%);
   border: 1px solid black;
 }
+
+footer img:hover {
+  opacity: 0.8;
+}
