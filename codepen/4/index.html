@@ -1,35 +1,37 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Listák és szövegek</title>
-  <link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Listák és szövegek</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <h1>Bevásárlási lista</h1>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<h1>Bevásárlási lista</h1>
+    Az aláhúzott a legfontosabb hiánycikk, Lajos! Vegyed meg! A pirosat csak
+    akkor, ha nem drága.
 
-Az aláhúzott a legfontosabb hiánycikk, Lajos! Vegyed meg! A pirosat csak akkor, ha nem drága.
-
-<h2>Élelmiszerbolt</h2>
-<ul>
-  <li>Gyümölcsök</li>
-  <li class=fontos>Kenyér</li>
-  <li>Víz</li>
-</ul>
-<h2>Patika</h2>
-<ul>
-  <li>Fájdalomcsillapító</li>
-  <li class=fontos>Sav lekötő</li>
-  <li class="olcso">Vitaminok
-    <ol>
-      <li >Gyerekeknek</li>
-      <li>Felnőtteknek</li>
-    </ol>
-  </li>
-</ul>
-<!-- partial -->
-  
-</body>
+    <h2>Élelmiszerbolt</h2>
+    <ul class="lista">
+      <li>Gyümölcsök</li>
+      <li class="fontos">Kenyér</li>
+      <li>Víz</li>
+    </ul>
+    <h2>Patika</h2>
+    <ul>
+      <li>Fájdalomcsillapító</li>
+      <li class="fontos">Sav lekötő</li>
+      <li class="olcso">
+        Vitaminok
+        <ol>
+          <li>Gyerekeknek</li>
+          <li>Felnőtteknek</li>
+        </ol>
+      </li>
+    </ul>
+    <!-- partial -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
 </html>

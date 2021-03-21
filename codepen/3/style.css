@@ -8,23 +8,23 @@ p {
   height: 60px;
   margin: 0px;
   padding: 30px 0 0 0;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   font-size: 24px;
   color: white;
 }
 
 .north {
-  background-color: #E67676;
+  background-color: #e67676;
 }
 
 .east {
-  background-color: #F2F062;
+  background-color: #f2f062;
 }
 
 .south {
-  background-color: #A9E6E6;
+  background-color: #a9e6e6;
 }
 
 .west {
-  background-color: #7692E4;
+  background-color: #7692e4;
 }
