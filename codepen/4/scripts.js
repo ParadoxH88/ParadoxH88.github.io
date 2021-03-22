@@ -1,10 +1,13 @@
-let nevek = ['Sanyi', 'Levi', 'Gabi', 'Anna'];
+let names = ['Levi', 'Anna', 'Tibi'];
 
+for (i = 0; i < names.length + 1; i++) {
+    $('.lista').append('<li>',names[i],'</li>');
+};
 
-nevek.forEach => {
+let additionalBlock = {
+    title: "Beillesztve JavaScripttel",
+    text: "Ez a blokk a JavaScript jQuery könyvtárával lett beillesztve. Király!"
+  };
 
-$(".lista").append('<li>', nevek, '</li>');
-    
-});
-console.log(nevek);
-
+  $('body').append('<h1>',additionalBlock.title ,'</h1>');
+  $('body').append('<p>',additionalBlock.text ,'</p>');
