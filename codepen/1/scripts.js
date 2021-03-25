@@ -1,1 +1,0 @@
-$('#elso').text('Reggelt Vietnám!');
